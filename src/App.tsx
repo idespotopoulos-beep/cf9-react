@@ -1,4 +1,5 @@
 function App() {
+    // TODO: ADD NEW FUNCTIONALITY
 
   return (
       <>
