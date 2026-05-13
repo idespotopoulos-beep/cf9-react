@@ -9,7 +9,7 @@ function App() {
       <>
           <FunctionalComponent />
           <ClassComponent />
-
+          <ArrowFunctionalComponent />
       </>
   )
 }
