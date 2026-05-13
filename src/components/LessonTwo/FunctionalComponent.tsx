@@ -1,5 +1,5 @@
 function FunctionalComponent() {
-    const title = "I am a FunctionalComponent";
+    const title = "I am a Functional Component!"
     return (
         <h1 className="bg-red">{title}</h1>
     );
