@@ -1,9 +1,14 @@
 
 const Footer = () => {
+    const currentYear =  new Date().getFullYear()
+
     return (
         <>
-            <footer>
-                This is a Footer area!
+            <footer className="bg-cf-dark-grey text-white">
+                <div className="container mx-auto mx-auto py-8 text-center">
+                &copy; {currentYear} Coding Factory 9. All Rights reserved.
+                </div>
+
             </footer>
         </>
     )
