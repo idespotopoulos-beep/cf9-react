@@ -3,15 +3,15 @@ import Footer from './Footer';
 
 interface LayoutProps {
     children: React.ReactNode;
-    className?: string;
+    addClasses?: string;
 }
 
-const Layout = ({children,className}:LayoutProps) => {
+const Layout = ({children, addClasses}:LayoutProps) => {
     return (
         <>
-            <div className={className}>
+            <div className={addClasses}>
                 <Header/>
-                <main className="contain mx-auto min-h-[95vh]">{children}</main>
+                <main className="container mx-auto min-h-[95vh] pt-36">{children}</main>
                 <Footer/>
             </div>
         </>
